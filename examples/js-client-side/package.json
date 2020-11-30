@@ -1,7 +1,7 @@
 {
-  "name": "js-server-side",
+  "name": "js-client-side",
   "version": "1.0.0",
-  "description": "An example demonstrating server-side usage of Conexus SQL-for-ETL API for third-party developers.",
+  "description": "An example demonstrating client-side usage of Conexus SQL-for-ETL API for third-party developers.",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && webpack --mode development --config webpack.server.config.js && webpack --mode development --config webpack.client.config.js",
