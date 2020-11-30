@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Conexus API Example</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h2>Conexus API Example</h2>
+        <a id="login" href="/login">Sign In</a>
+        <a id="logout" href="/logout">Sign Out</a>
+      </header>
+      <main>
+        <label for="api_key">API Key</label>
+        <input id="api_key" type="text" size="50" />
+        <label for="api_query">API Query</label>
+        <input id="api_query" type="text" value="/checks" size="50" />
+        <button id="submit">Submit</button>
+        <input type="checkbox" id="direct" value="true" />
+        <label for="direct">Direct <i>(Requires API Key)</i></label>
+        <pre id="result"></pre>
+      </main>
+    </div>
+  </body>
+</html>
