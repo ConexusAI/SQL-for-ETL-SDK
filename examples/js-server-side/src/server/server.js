@@ -6,6 +6,7 @@ import { createProxyMiddleware } from 'http-proxy-middleware'
 import Auth from './auth.js'
 
 const PORT = process.env.PORT || 3000
+const PATH = __dirname
 
 const auth = new Auth({
   client_id: process.env.CLIENT_ID,
@@ -36,7 +37,7 @@ app.use(
 )
 
 // Serve static files
-app.use(express.static(__dirname))
+app.use(express.static(PATH))
 
 // Start listening
 app.listen(PORT, () => {

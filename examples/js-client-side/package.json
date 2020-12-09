@@ -11,11 +11,8 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "axios": "^0.21.0",
-    "cookie-parser": "^1.4.5",
     "crypto": "^1.0.1",
-    "express": "^4.17.1",
-    "http-proxy-middleware": "^1.0.6",
-    "qs": "^6.9.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
